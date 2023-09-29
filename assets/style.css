@@ -1,0 +1,77 @@
+.navigation {
+    background-color: #274c6e;
+}
+
+.sidebar{
+    position: fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    width: 16rem;
+    padding: 4rem 1rem 2rem;
+    background-color: #f8f9fa;
+
+}
+.H1{
+    text-align: right;
+    margin-right: 15%;
+    color: aliceblue;
+}
+.H2{
+    text-align: center;
+    color: #172d42;
+}
+.img1{
+    position: relative;
+    margin-left: 20%;
+    width: 200px;
+    height: 100px;
+    margin-top: 1%
+}
+.img2{
+    position: relative;
+    margin-left: 10%;
+    width: 180px;
+    height: 100px;
+    margin-top: 1%
+}
+.contenedor-imagenes {
+    display: flex;
+  }
+.cropped {
+    object-position: center;
+    height: 500px;
+    width: 900px;
+}
+
+.image-container {
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: flex-end; /* Center items horizontally within the flex container */
+    align-items: center; /* Center items vertically within the flex container */
+    background-color: #172d42;
+
+}
+
+.image-container img {
+    width: 180px; /* Set the width of your images as needed */
+    height: 60px; /* Set the height of your images as needed */
+    margin-right: 60px; /* Add some margin between the images and the title */
+    margin: 20px;
+}
+
+.image-container h2 {
+    font-size: 37px; /* Set the font size of the title as needed */
+    margin-left: 40px; /* Add some margin around the title */
+    margin-right: 40px;
+    color:aliceblue;
+    
+}
+.P{
+    text-align: center;
+}
+.centrado {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 30px; /* Establece una altura para el contenedor, opcional */
+}
